@@ -104,7 +104,7 @@ class Solution {
 //         while(s<=e){
 //             int mid=s+(e-s)/2;
 //             if(arr[mid]>t)
-//                 e=mid+1;
+//                 e=mid-1;
 //             else if(t>arr[mid])
 //                 s=mid+1;
 //             else
