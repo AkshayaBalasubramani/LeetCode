@@ -17,6 +17,9 @@
 //                 new_no=new_no*10+a;
 //                 t=t/10;
 //             }
+//             if (new_no> Integer.MAX_VALUE || new_no < Integer.MIN_VALUE) {
+//                 return 0;
+//             }
 //             return new_no;
 //         }
 //     }
